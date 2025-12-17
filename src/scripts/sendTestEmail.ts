@@ -2,7 +2,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 import nodemailer from 'nodemailer';
-import { EmailService } from '../Services/emailService.ts';
+import { EmailService } from '../Services/emailService';
 
 async function run() {
   // If SMTP env is configured for enquiry, try using EmailService

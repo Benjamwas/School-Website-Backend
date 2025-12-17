@@ -1,6 +1,6 @@
 import { Router } from "express";
-import { EmailController } from "../controllers/EmailController.ts";
-import { EmailService } from "../Services/emailService.ts";
+import { EmailController } from "../controllers/EmailController";
+import { EmailService } from "../Services/emailService";
 
 const router = Router();
 

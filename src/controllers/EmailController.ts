@@ -1,6 +1,6 @@
 import {Request,Response} from 'express';
-import { EmailModel } from '../Models/emailModel.ts';
-import { EmailService } from '../Services/emailService.ts';
+import { EmailModel } from '../Models/emailModel';
+import { EmailService } from '../Services/emailService';
 
 export const EmailController = {
     contactform: async (req:Request, res:Response) => { // Handles contact form submissions
